@@ -67,6 +67,8 @@ function addelement() {
         let Main_data = {text: usrtext , image: colitem.style.backgroundImage}
         sessionStorage.setItem(cnt, JSON.stringify(Main_data))
         colitem.id = cnt++
+        let lS_tag = "col "
+        localStorage.setItem(lS_tag + cnt, colitem)
         elementselect.append(colitem)
         
 
