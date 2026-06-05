@@ -29,7 +29,7 @@ dev_panel.onload = dev_panel.classList.add("hidden")
 
 function addelement() {
 
-    console.log("executed")
+    console.log("executed") //debug
     console.log(cnt)
     if (cnt == 12) {
         console.log("limit reached") //debug
