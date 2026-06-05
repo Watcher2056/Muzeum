@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Museum main</title>
+</head>
+
+<body>
+    <div class="row">
+        <div class="col" id="main-content">
+                <h2 id="main-content-title"></h2>
+                <p id="main-content-text"></p>
+        </div>
+
+    </div>
+    <div class="row" id="expand-row">
+
+    </div>
+    <div class="row fixed-bottom animated-row mb-4" id="devpanel">
+        <div class="col-3 mx-auto" id="devpanel-content">
+
+            <h3 id="devpanel-title">Admin panel</h3>
+            <input type="text" id="boxtitle" placeholder="Anyag címe">
+            <textarea name="info" id="textdata" placeholder="Anyag szövege"></textarea>
+            <h3>Háttér választás</h3>
+            <input type="file" id="bgUpload" accept="image/*">
+            <input type="button" value="Hozzáadás" id="userinput" class="rounded">
+
+        </div>
+
+    </div>
+    <script src="scirpt.js"></script>
+</body>
+
+</html>
