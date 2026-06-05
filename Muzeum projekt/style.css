@@ -43,11 +43,16 @@
     border-radius: 10%;
     border-color: black;
     border: solid;
-    
+    width: 20%;
+     display: flex;
+    flex-direction: column;
+    align-items: center;   /* horizontal centering */
+    justify-content: center; /* vertical centering (if height is set) */
+    text-align: center;    /* centers text */
+    padding: 20px;
 }
 #main-content{
-    background-color: whitesmoke;
-    opacity: 60%;
+    background-color: rgba(245, 245, 245, 0.67);
     margin-top: 15%;
     margin-left: 10%;
     margin-right: 10%;
@@ -55,9 +60,8 @@
     border-radius: 1%;
     margin-bottom: 25px;
 }
-
-.main-content-title{
-    opacity: 0;
+body{
+    background-image: url(images/image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-
-body{background-image: url(images/image.png);}
